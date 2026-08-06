@@ -1,1 +1,48 @@
+TCP  Stands_for Transmission COntrol Protocol(It is Followed by The Transport Layer)
+Main Functions or the Points of the Tcp
+1)Connection oriented
+2)Reliable
+3) Slower Than Udp
+4) Secure 
+5)  
 
+
+Http ->80 port 
+
+
+Tcp   222--Packet -----80-------   ->This is a Segemt (It has the Ports )
+      ---------------
+    
+Layers 4 transport Layer Deals with the Segments 
+
+The Segent has the Headers The source POrt and The Destination port 
+
+Next Below it the Network Layer
+
+It is Called As the Ip Protocol
+BeCause It Deals with Ip Addresses 
+Ip Packet  
+-10.0.0.1----------1.2.3.4-   It is Ip Packet  (It does not Know the Port It just Know the Source Ip and the Destination Ip
+
+
+Layer 2
+ 
+Data LInk Layer  -> It divides the Data  in the Frame
+It has the Mac Address
+
+  
+||A|||----Content---------||-B||-   (It  is called a Frame)
+Destination      Source Mac
+Mac
+ 
+Data Link 
+Layers Divide the Packet into MUltiple Frames 
+Each has the SOurce Mac and the Destination Mac
+
+
+
+
+Physical Layer
+Phuscial doest Understand the Frames so it Is Converted into the No of the Zeroes and 1'S
+|-----------------|
+|------------------|
